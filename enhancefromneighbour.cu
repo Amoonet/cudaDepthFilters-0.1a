@@ -115,8 +115,8 @@ enhanceFromNeighbour::~enhanceFromNeighbour()
  *      depths      - vector of depth maps (types: CV_32F, CV_64F, CV_16U, CV_8U)
  *      intrinsics  - vector of intrinsics parameters: cv::Mat mat1 = (cv::Mat_<float>(1,4)<<fx, fy, cx, cy);
  *      R           - rotation matrices: cv::Mat R1 = (cv::Mat_<float>(3,3)<<1,0,0,
- *                                                                      0,1,0,
- *                                                                      0,0,1);
+ *                                                                           0,1,0,
+ *                                                                           0,0,1);
  *      t           - translation vectors: cv::Mat t1 = (cv::Mat_<float>(1,3)<<0,0,0);
  * output:
  *      out         - output depth map (type: same as inputs)
