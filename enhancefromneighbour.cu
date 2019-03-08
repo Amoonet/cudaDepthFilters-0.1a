@@ -25,7 +25,7 @@ void cudaEnhanceFromNeighbours(float **depths, unsigned int *out, float **intrin
     //from float to uint
     out[row] = depths[0][row]*((pow(2,16)-1));
 
-    for(int k = 0; k<1;k++){
+    for(int k = 0; k<num_of_devices-1;k++){
         double p1 = depths[k+1][arow*cols + acol];
         if (p1 == 0)continue;
 
