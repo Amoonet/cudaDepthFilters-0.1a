@@ -109,13 +109,12 @@ void cudaAbsValues(cufftDoubleComplex * data1,cufftDoubleComplex * data2, double
     val[row] = pow(D1,2) + pow(D2,2);
 }
 
-/******************************************************************************************************************/
-
-
-/******************************************************************************************************************/
+/**************************************************************************************************
+ * Allocation of memory
+ * rows, cols       - size of input depth map
+ * ************************************************************************************************/
 cudaL0Smoothing::cudaL0Smoothing(int rows, int cols){
     //allocating necessary memory
-
     gpuErrchk(  cudaMalloc((void **) &depth, rows*cols*sizeof(double))     );
     gpuErrchk(  cudaMalloc((void **) &ir, rows*cols*sizeof(uchar))     );
     gpuErrchk(  cudaMalloc((void **) &cudaOutReal, rows*cols*sizeof(cufftDoubleReal))     );
@@ -204,7 +203,13 @@ cudaL0Smoothing::~cudaL0Smoothing(){
 
 }
 
-
+/*******************************************************************************/
+/*Inputs:
+ *      depths_mat      - depth map (types: CV_32F, CV_64F, CV_16U, CV_8U)
+ *      ir_mat          - weight map, usually ir image or grayscale image
+ *      kappa           - kappa parameter
+ *      lambda          - lambda parameter
+ ********************************************************************************/
 void cudaL0Smoothing::filter(cv::Mat &depth_mat,cv::Mat ir_mat,float kappa,float lambda){
 
     assert(depth_mat.depth() == CV_32F || depth_mat.depth() == CV_64F || depth_mat.depth() == CV_16U || depth_mat.depth() == CV_8U);
@@ -272,7 +277,7 @@ void cudaL0Smoothing::filter(cv::Mat &depth_mat,cv::Mat ir_mat,float kappa,float
         depth_mat.convertTo(depth_mat,CV_16U,pow(2,16)-1,0);
     }
     else if(type == CV_8U){
-        depth_mat.convertTo(depth_mat,CV_64F,pow(2,8)-1,0);
+        depth_mat.convertTo(depth_mat,CV_8U,pow(2,8)-1,0);
     }
     else if(type == CV_32F){
         depth_mat.convertTo(depth_mat,CV_32F);
