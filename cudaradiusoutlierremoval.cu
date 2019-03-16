@@ -135,10 +135,10 @@ void cudaRadiusOutlierRemoval::filter(cv::Mat &depth_mat, int window, int n_neig
 
     int type =  depth_mat.depth();
     if(depth_mat.depth() == CV_16U){
-        depth_mat.convertTo(depth_mat,CV_64F,1.0/(pow(2,16)-1),0);
+        depth_mat.convertTo(depth_mat,CV_32F,1.0/(pow(2,16)-1),0);
     }
     else if(depth_mat.depth() == CV_8U){
-        depth_mat.convertTo(depth_mat,CV_64F,1.0/(pow(2,8)-1),0);
+        depth_mat.convertTo(depth_mat,CV_32F,1.0/(pow(2,8)-1),0);
     }
     else if(depth_mat.depth() == CV_64F){
         depth_mat.convertTo(depth_mat,CV_32F);
