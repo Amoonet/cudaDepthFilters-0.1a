@@ -1,0 +1,2126 @@
+1>------ Build started: Project: ZERO_CHECK, Configuration: Debug x64 ------
+1>Checking Build System
+2>------ Build started: Project: libprotobuf, Configuration: Debug x64 ------
+3>------ Build started: Project: c10, Configuration: Debug x64 ------
+4>------ Build started: Project: gtest, Configuration: Debug x64 ------
+5>------ Build started: Project: ATEN_CPU_FILES_GEN_TARGET, Configuration: Debug x64 ------
+6>------ Build started: Project: ATEN_CUDA_FILES_GEN_TARGET, Configuration: Debug x64 ------
+7>------ Build started: Project: foxi_loader, Configuration: Debug x64 ------
+8>------ Build started: Project: caffe2_nvrtc, Configuration: Debug x64 ------
+2>Building Custom Rule C:/Users/Andrej/Documents/pytorch/third_party/protobuf/cmake/CMakeLists.txt
+2>libprotobuf.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\libprotobufd.lib
+4>gtest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\gtestd.lib
+9>------ Build started: Project: libprotoc, Configuration: Debug x64 ------
+10>------ Build started: Project: libprotobuf-lite, Configuration: Debug x64 ------
+11>------ Skipped Build: Project: generate-torch-sources, Configuration: Debug x64 ------
+11>Project not selected to build for this solution configuration 
+12>------ Skipped Build: Project: __aten_op_header_gen, Configuration: Debug x64 ------
+12>Project not selected to build for this solution configuration 
+13>------ Build started: Project: gtest_main, Configuration: Debug x64 ------
+14>------ Skipped Build: Project: caffe2_uninstall, Configuration: Debug x64 ------
+14>Project not selected to build for this solution configuration 
+15>------ Skipped Build: Project: RUN_TESTS, Configuration: Debug x64 ------
+15>Project not selected to build for this solution configuration 
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>Allocator.cpp
+3>CPUAllocator.cpp
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>CopyBytes.cpp
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>DefaultDtype.cpp
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+3>Device.cpp
+3>DeviceType.cpp
+3>Scalar.cpp
+3>Storage.cpp
+8>ATenNVRTC.cpp
+7>onnxifi_loader.c
+10>Building Custom Rule C:/Users/Andrej/Documents/pytorch/third_party/protobuf/cmake/CMakeLists.txt
+9>Building Custom Rule C:/Users/Andrej/Documents/pytorch/third_party/protobuf/cmake/CMakeLists.txt
+10>libprotobuf-lite.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\libprotobuf-lited.lib
+9>libprotoc.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\libprotocd.lib
+16>------ Build started: Project: protoc, Configuration: Debug x64 ------
+3>StorageImpl.cpp
+3>Stream.cpp
+3>TensorImpl.cpp
+3>TensorOptions.cpp
+3>TensorTypeId.cpp
+8>cl : command line warning D9025: overriding '/W1' with '/w'
+13>gtest_main.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\gtest_maind.lib
+3>TensorTypeSet.cpp
+3>UndefinedTensorImpl.cpp
+16>Building Custom Rule C:/Users/Andrej/Documents/pytorch/third_party/protobuf/cmake/CMakeLists.txt
+8>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/caffe2_nvrtc.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/caffe2_nvrtc.exp
+16>protoc.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\protoc.exe
+3>DeviceGuardImplInterface.cpp
+17>------ Build started: Project: gen_onnx_proto, Configuration: Debug x64 ------
+8>caffe2_nvrtc.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\caffe2_nvrtc.dll
+8>Done building project "caffe2_nvrtc.vcxproj".
+18>------ Build started: Project: Caffe2_PROTO, Configuration: Debug x64 ------
+3>LocalTensorTypeSet.cpp
+3>thread_pool.cpp
+3>Array.cpp
+19>------ Build started: Project: onnx_proto, Configuration: Debug x64 ------
+3>Backtrace.cpp
+3>C++17.cpp
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>caffe2.pb.cc
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>caffe2_legacy.pb.cc
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>hsm.pb.cc
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+18>metanet.pb.cc
+18>predictor_consts.pb.cc
+18>prof_dag.pb.cc
+18>torch.pb.cc
+3>Exception.cpp
+7>cl : command line warning D9025: overriding '/W1' with '/w'
+3>Half.cpp
+19>cl : command line warning D9025: overriding '/W1' with '/w'
+19>cl : command line warning D9025: overriding '/W1' with '/w'
+19>onnx_onnx_torch-ml.pb.cc
+19>onnx-operators_onnx_torch-ml.pb.cc
+3>LeftRight.cpp
+7>foxi_loader.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\foxi_loader.lib
+7>Done building project "foxi_loader.vcxproj".
+3>Logging.cpp
+3>Metaprogramming.cpp
+3>Optional.cpp
+3>SmallVector.cpp
+3>StringUtil.cpp
+3>Type.cpp
+3>TypeList.cpp
+3>TypeTraits.cpp
+3>UniqueVoidPtr.cpp
+3>flags_use_gflags.cpp
+3>flags_use_no_gflags.cpp
+3>intrusive_ptr.cpp
+3>numa.cpp
+3>thread_name.cpp
+3>typeid.cpp
+18>cl : command line warning D9025: overriding '/W1' with '/w'
+19>cl : command line warning D9025: overriding '/W1' with '/w'
+19>onnx_proto.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\onnx_proto.lib
+19>Done building project "onnx_proto.vcxproj".
+18>Caffe2_PROTO.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\caffe2\proto\Caffe2_PROTO.dir\Debug\Caffe2_PROTO.lib
+18>Done building project "Caffe2_PROTO.vcxproj".
+20>------ Build started: Project: onnx, Configuration: Debug x64 ------
+21>------ Build started: Project: caffe2_protos, Configuration: Debug x64 ------
+3>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+3>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10.exp
+3>c10.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10.dll
+3>Done building project "c10.vcxproj".
+22>------ Build started: Project: Caffe2_perfkernels_avx, Configuration: Debug x64 ------
+23>------ Build started: Project: Caffe2_perfkernels_avx2, Configuration: Debug x64 ------
+24>------ Build started: Project: Caffe2_perfkernels_avx512, Configuration: Debug x64 ------
+25>------ Build started: Project: c10_cuda, Configuration: Debug x64 ------
+21>caffe2_protos.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\caffe2_protos.lib
+26>------ Build started: Project: c10_Half_test, Configuration: Debug x64 ------
+27>------ Build started: Project: c10_Array_test, Configuration: Debug x64 ------
+22>cl : command line warning D9025: overriding '/W1' with '/w'
+22>cl : command line warning D9025: overriding '/W1' with '/w'
+22>cl : command line warning D9025: overriding '/W1' with '/w'
+22>adagrad_avx.cc
+22>common_avx.cc
+22>typed_axpy_avx.cc
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>common_avx2.cc
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>embedding_lookup_avx2.cc
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>embedding_lookup_fused_8bit_rowwise_avx2.cc
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>embedding_lookup_fused_8bit_rowwise_idx_avx2.cc
+23>embedding_lookup_idx_avx2.cc
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+23>math_cpu_avx2.cc
+23>typed_axpy_avx2.cc
+24>common_avx512.cc
+28>------ Build started: Project: c10_C++17_test, Configuration: Debug x64 ------
+25>cl : command line warning D9025: overriding '/W1' with '/w'
+25>cl : command line warning D9025: overriding '/W1' with '/w'
+25>CUDAStream.cpp
+25>cl : command line warning D9025: overriding '/W1' with '/w'
+25>CUDACachingAllocator.cpp
+25>CUDAGuardImpl.cpp
+25>cl : command line warning D9025: overriding '/W1' with '/w'
+25>CUDATest.cpp
+27>Array_test.cpp
+26>Half_test.cpp
+28>C++17_test.cpp
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+24>cl : command line warning D9025: overriding '/W1' with '/w'
+22>cl : command line warning D9025: overriding '/W1' with '/w'
+24>Caffe2_perfkernels_avx512.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\Caffe2_perfkernels_avx512.lib
+24>Done building project "Caffe2_perfkernels_avx512.vcxproj".
+22>Caffe2_perfkernels_avx.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\Caffe2_perfkernels_avx.lib
+22>Done building project "Caffe2_perfkernels_avx.vcxproj".
+29>------ Build started: Project: c10_ConstexprCrc_test, Configuration: Debug x64 ------
+30>------ Build started: Project: c10_DeviceGuard_test, Configuration: Debug x64 ------
+23>cl : command line warning D9025: overriding '/W1' with '/w'
+29>ConstexprCrc_test.cpp
+30>DeviceGuard_test.cpp
+23>Caffe2_perfkernels_avx2.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\Caffe2_perfkernels_avx2.lib
+23>Done building project "Caffe2_perfkernels_avx2.vcxproj".
+31>------ Build started: Project: c10_InlineDeviceGuard_test, Configuration: Debug x64 ------
+28>cl : command line warning D9025: overriding '/W1' with '/w'
+27>cl : command line warning D9025: overriding '/W1' with '/w'
+31>InlineDeviceGuard_test.cpp
+26>cl : command line warning D9025: overriding '/W1' with '/w'
+20>schema.cc
+29>cl : command line warning D9025: overriding '/W1' with '/w'
+28>c10_C++17_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_C++17_test.exe
+25>cl : command line warning D9025: overriding '/W1' with '/w'
+29>c10_ConstexprCrc_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_ConstexprCrc_test.exe
+25>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_cuda.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_cuda.exp
+25>c10_cuda.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_cuda.dll
+25>Done building project "c10_cuda.vcxproj".
+32>------ Build started: Project: c10_InlineStreamGuard_test, Configuration: Debug x64 ------
+30>cl : command line warning D9025: overriding '/W1' with '/w'
+27>c10_Array_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_Array_test.exe
+27>Done building project "c10_Array_test.vcxproj".
+33>------ Build started: Project: c10_LeftRight_test, Configuration: Debug x64 ------
+31>cl : command line warning D9025: overriding '/W1' with '/w'
+32>InlineStreamGuard_test.cpp
+30>c10_DeviceGuard_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_DeviceGuard_test.exe
+33>LeftRight_test.cpp
+31>c10_InlineDeviceGuard_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_InlineDeviceGuard_test.exe
+31>Done building project "c10_InlineDeviceGuard_test.vcxproj".
+28>Done building project "c10_C++17_test.vcxproj".
+30>Done building project "c10_DeviceGuard_test.vcxproj".
+29>Done building project "c10_ConstexprCrc_test.vcxproj".
+34>------ Build started: Project: c10_Metaprogramming_test, Configuration: Debug x64 ------
+35>------ Build started: Project: c10_StreamGuard_test, Configuration: Debug x64 ------
+36>------ Build started: Project: c10_TensorTypeSet_test, Configuration: Debug x64 ------
+37>------ Build started: Project: c10_TypeIndex_test, Configuration: Debug x64 ------
+35>StreamGuard_test.cpp
+34>Metaprogramming_test.cpp
+26>c10_Half_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_Half_test.exe
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+26>Done building project "c10_Half_test.vcxproj".
+38>------ Build started: Project: c10_TypeList_test, Configuration: Debug x64 ------
+36>TensorTypeSet_test.cpp
+37>TypeIndex_test.cpp
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>checker.cc
+20>assertions.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>interned_strings.cc
+20>ir_pb_converter.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>model_helpers.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>status.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>attr_proto_util.cc
+20>data_type_utils.cc
+38>TypeList_test.cpp
+32>cl : command line warning D9025: overriding '/W1' with '/w'
+20>function.cc
+35>cl : command line warning D9025: overriding '/W1' with '/w'
+20>utils.cc
+33>cl : command line warning D9025: overriding '/W1' with '/w'
+20>tensor_proto_util.cc
+34>cl : command line warning D9025: overriding '/W1' with '/w'
+36>cl : command line warning D9025: overriding '/W1' with '/w'
+32>c10_InlineStreamGuard_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_InlineStreamGuard_test.exe
+32>Done building project "c10_InlineStreamGuard_test.vcxproj".
+35>c10_StreamGuard_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_StreamGuard_test.exe
+35>Done building project "c10_StreamGuard_test.vcxproj".
+39>------ Build started: Project: c10_TypeTraits_test, Configuration: Debug x64 ------
+37>cl : command line warning D9025: overriding '/W1' with '/w'
+33>c10_LeftRight_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_LeftRight_test.exe
+33>Done building project "c10_LeftRight_test.vcxproj".
+40>------ Build started: Project: c10_bfloat16_test, Configuration: Debug x64 ------
+41>------ Build started: Project: c10_cuda_CUDATest, Configuration: Debug x64 ------
+38>cl : command line warning D9025: overriding '/W1' with '/w'
+39>TypeTraits_test.cpp
+40>bfloat16_test.cpp
+20>tensor_util.cc
+34>c10_Metaprogramming_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_Metaprogramming_test.exe
+34>Done building project "c10_Metaprogramming_test.vcxproj".
+36>c10_TensorTypeSet_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_TensorTypeSet_test.exe
+36>Done building project "c10_TensorTypeSet_test.vcxproj".
+42>------ Build started: Project: c10_either_test, Configuration: Debug x64 ------
+20>onnxifi_utils.cc
+20>optimize.cc
+20>pass.cc
+20>pass_manager.cc
+41>CUDATest.cpp
+43>------ Build started: Project: c10_flags_test, Configuration: Debug x64 ------
+37>c10_TypeIndex_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_TypeIndex_test.exe
+37>Done building project "c10_TypeIndex_test.vcxproj".
+44>------ Build started: Project: c10_intrusive_ptr_test, Configuration: Debug x64 ------
+20>pass_registry.cc
+42>either_test.cpp
+20>implementation.cc
+43>flags_test.cpp
+20>convert.cc
+44>intrusive_ptr_test.cpp
+41>cl : command line warning D9025: overriding '/W1' with '/w'
+40>cl : command line warning D9025: overriding '/W1' with '/w'
+20>helper.cc
+38>c10_TypeList_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_TypeList_test.exe
+38>Done building project "c10_TypeList_test.vcxproj".
+45>------ Build started: Project: c10_logging_test, Configuration: Debug x64 ------
+39>cl : command line warning D9025: overriding '/W1' with '/w'
+41>c10_cuda_CUDATest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_cuda_CUDATest.exe
+41>Done building project "c10_cuda_CUDATest.vcxproj".
+46>------ Build started: Project: c10_ordered_preserving_dict_test, Configuration: Debug x64 ------
+43>cl : command line warning D9025: overriding '/W1' with '/w'
+45>logging_test.cpp
+39>c10_TypeTraits_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_TypeTraits_test.exe
+39>Done building project "c10_TypeTraits_test.vcxproj".
+40>c10_bfloat16_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_bfloat16_test.exe
+40>Done building project "c10_bfloat16_test.vcxproj".
+47>------ Build started: Project: c10_registry_test, Configuration: Debug x64 ------
+48>------ Build started: Project: c10_string_view_test, Configuration: Debug x64 ------
+43>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_flags_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_flags_test.exp
+46>ordered_preserving_dict_test.cpp
+47>registry_test.cpp
+48>string_view_test.cpp
+43>c10_flags_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_flags_test.exe
+43>Done building project "c10_flags_test.vcxproj".
+49>------ Build started: Project: c10_tempfile_test, Configuration: Debug x64 ------
+49>tempfile_test.cpp
+45>cl : command line warning D9025: overriding '/W1' with '/w'
+47>cl : command line warning D9025: overriding '/W1' with '/w'
+44>cl : command line warning D9025: overriding '/W1' with '/w'
+46>cl : command line warning D9025: overriding '/W1' with '/w'
+47>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_registry_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_registry_test.exp
+48>cl : command line warning D9025: overriding '/W1' with '/w'
+45>c10_logging_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_logging_test.exe
+45>Done building project "c10_logging_test.vcxproj".
+47>c10_registry_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_registry_test.exe
+47>Done building project "c10_registry_test.vcxproj".
+50>------ Build started: Project: c10_typeid_test, Configuration: Debug x64 ------
+49>cl : command line warning D9025: overriding '/W1' with '/w'
+46>c10_ordered_preserving_dict_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_ordered_preserving_dict_test.exe
+46>Done building project "c10_ordered_preserving_dict_test.vcxproj".
+44>c10_intrusive_ptr_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_intrusive_ptr_test.exe
+44>Done building project "c10_intrusive_ptr_test.vcxproj".
+48>c10_string_view_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_string_view_test.exe
+48>Done building project "c10_string_view_test.vcxproj".
+50>typeid_test.cpp
+49>c10_tempfile_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_tempfile_test.exe
+49>Done building project "c10_tempfile_test.vcxproj".
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+42>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+42>c10_either_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_either_test.exe
+42>Done building project "c10_either_test.vcxproj".
+50>cl : command line warning D9025: overriding '/W1' with '/w'
+50>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_typeid_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/c10_typeid_test.exp
+50>c10_typeid_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\c10_typeid_test.exe
+50>Done building project "c10_typeid_test.vcxproj".
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>schema.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>defs.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>old.cc
+20>cl : command line warning D9025: overriding '/W1' with '/w'
+20>onnx.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\lib\Debug\onnx.lib
+20>Done building project "onnx.vcxproj".
+51>------ Build started: Project: torch, Configuration: Debug x64 ------
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCReduceApplyUtils.cu.obj
+51>THCReduceApplyUtils.cu
+51>THCReduceApplyUtils.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCBlas.cu.obj
+51>THCBlas.cu
+51>THCBlas.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCSleep.cu.obj
+51>THCSleep.cu
+51>THCSleep.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCStorage.cu.obj
+51>THCStorage.cu
+51>THCStorage.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCStorageCopy.cu.obj
+51>THCStorageCopy.cu
+51>THCStorageCopy.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensor.cu.obj
+51>THCTensor.cu
+51>THCTensor.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorCopy.cu.obj
+51>THCTensorCopy.cu
+51>THCTensorCopy.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMath.cu.obj
+51>THCTensorMath.cu
+51>THCTensorMath.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMathBlas.cu.obj
+51>THCTensorMathBlas.cu
+51>THCTensorMathBlas.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMathMagma.cu.obj
+51>THCTensorMathMagma.cu
+51>THCTensorMathMagma.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMathPairwise.cu.obj
+51>THCTensorMathPairwise.cu
+51>THCTensorMathPairwise.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMathReduce.cu.obj
+51>THCTensorMathReduce.cu
+51>THCTensorMathReduce.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMathScan.cu.obj
+51>THCTensorMathScan.cu
+51>THCTensorMathScan.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorIndex.cu.obj
+51>THCTensorIndex.cu
+51>THCTensorIndex.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorRandom.cu.obj
+51>THCTensorRandom.cu
+51>THCTensorRandom.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorScatterGather.cu.obj
+51>THCTensorScatterGather.cu
+51>THCTensorScatterGather.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorTopK.cu.obj
+51>THCTensorTopK.cu
+51>THCTensorTopK.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorSort.cu.obj
+51>THCTensorSort.cu
+51>THCTensorSort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCSortUtils.cu.obj
+51>THCSortUtils.cu
+51>THCSortUtils.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/Debug/torch_generated_THCTensorMode.cu.obj
+51>THCTensorMode.cu
+51>THCTensorMode.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortByte.cu.obj
+51>THCTensorSortByte.cu
+51>THCTensorSortByte.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTByte.cu.obj
+51>THCTensorMathCompareTByte.cu
+51>THCTensorMathCompareTByte.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseByte.cu.obj
+51>THCTensorMathPointwiseByte.cu
+51>THCTensorMathPointwiseByte.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareByte.cu.obj
+51>THCTensorMathCompareByte.cu
+51>THCTensorMathCompareByte.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceByte.cu.obj
+51>THCTensorMathReduceByte.cu
+51>THCTensorMathReduceByte.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedByte.cu.obj
+51>THCTensorMaskedByte.cu
+51>THCTensorMaskedByte.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortChar.cu.obj
+51>THCTensorSortChar.cu
+51>THCTensorSortChar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTChar.cu.obj
+51>THCTensorMathCompareTChar.cu
+51>THCTensorMathCompareTChar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseChar.cu.obj
+51>THCTensorMathPointwiseChar.cu
+51>THCTensorMathPointwiseChar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareChar.cu.obj
+51>THCTensorMathCompareChar.cu
+51>THCTensorMathCompareChar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceChar.cu.obj
+51>THCTensorMathReduceChar.cu
+51>THCTensorMathReduceChar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedChar.cu.obj
+51>THCTensorMaskedChar.cu
+51>THCTensorMaskedChar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortShort.cu.obj
+51>THCTensorSortShort.cu
+51>THCTensorSortShort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTShort.cu.obj
+51>THCTensorMathCompareTShort.cu
+51>THCTensorMathCompareTShort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseShort.cu.obj
+51>THCTensorMathPointwiseShort.cu
+51>THCTensorMathPointwiseShort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareShort.cu.obj
+51>THCTensorMathCompareShort.cu
+51>THCTensorMathCompareShort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceShort.cu.obj
+51>THCTensorMathReduceShort.cu
+51>THCTensorMathReduceShort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedShort.cu.obj
+51>THCTensorMaskedShort.cu
+51>THCTensorMaskedShort.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortInt.cu.obj
+51>THCTensorSortInt.cu
+51>THCTensorSortInt.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTInt.cu.obj
+51>THCTensorMathCompareTInt.cu
+51>THCTensorMathCompareTInt.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseInt.cu.obj
+51>THCTensorMathPointwiseInt.cu
+51>THCTensorMathPointwiseInt.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareInt.cu.obj
+51>THCTensorMathCompareInt.cu
+51>THCTensorMathCompareInt.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceInt.cu.obj
+51>THCTensorMathReduceInt.cu
+51>THCTensorMathReduceInt.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedInt.cu.obj
+51>THCTensorMaskedInt.cu
+51>THCTensorMaskedInt.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortLong.cu.obj
+51>THCTensorSortLong.cu
+51>THCTensorSortLong.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTLong.cu.obj
+51>THCTensorMathCompareTLong.cu
+51>THCTensorMathCompareTLong.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseLong.cu.obj
+51>THCTensorMathPointwiseLong.cu
+51>THCTensorMathPointwiseLong.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareLong.cu.obj
+51>THCTensorMathCompareLong.cu
+51>THCTensorMathCompareLong.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceLong.cu.obj
+51>THCTensorMathReduceLong.cu
+51>THCTensorMathReduceLong.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedLong.cu.obj
+51>THCTensorMaskedLong.cu
+51>THCTensorMaskedLong.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortHalf.cu.obj
+51>THCTensorSortHalf.cu
+51>THCTensorSortHalf.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTHalf.cu.obj
+51>THCTensorMathCompareTHalf.cu
+51>THCTensorMathCompareTHalf.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseHalf.cu.obj
+51>THCTensorMathPointwiseHalf.cu
+51>THCTensorMathPointwiseHalf.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareHalf.cu.obj
+51>THCTensorMathCompareHalf.cu
+51>THCTensorMathCompareHalf.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceHalf.cu.obj
+51>THCTensorMathReduceHalf.cu
+51>THCTensorMathReduceHalf.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedHalf.cu.obj
+51>THCTensorMaskedHalf.cu
+51>THCTensorMaskedHalf.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortFloat.cu.obj
+51>THCTensorSortFloat.cu
+51>THCTensorSortFloat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTFloat.cu.obj
+51>THCTensorMathCompareTFloat.cu
+51>THCTensorMathCompareTFloat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseFloat.cu.obj
+51>THCTensorMathPointwiseFloat.cu
+51>THCTensorMathPointwiseFloat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareFloat.cu.obj
+51>THCTensorMathCompareFloat.cu
+51>THCTensorMathCompareFloat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceFloat.cu.obj
+51>THCTensorMathReduceFloat.cu
+51>THCTensorMathReduceFloat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedFloat.cu.obj
+51>THCTensorMaskedFloat.cu
+51>THCTensorMaskedFloat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorSortDouble.cu.obj
+51>THCTensorSortDouble.cu
+51>THCTensorSortDouble.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTDouble.cu.obj
+51>THCTensorMathCompareTDouble.cu
+51>THCTensorMathCompareTDouble.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseDouble.cu.obj
+51>THCTensorMathPointwiseDouble.cu
+51>THCTensorMathPointwiseDouble.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareDouble.cu.obj
+51>THCTensorMathCompareDouble.cu
+51>THCTensorMathCompareDouble.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceDouble.cu.obj
+51>THCTensorMathReduceDouble.cu
+51>THCTensorMathReduceDouble.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedDouble.cu.obj
+51>THCTensorMaskedDouble.cu
+51>THCTensorMaskedDouble.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareTBool.cu.obj
+51>THCTensorMathCompareTBool.cu
+51>THCTensorMathCompareTBool.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathCompareBool.cu.obj
+51>THCTensorMathCompareBool.cu
+51>THCTensorMathCompareBool.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathReduceBool.cu.obj
+51>THCTensorMathReduceBool.cu
+51>THCTensorMathReduceBool.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMaskedBool.cu.obj
+51>THCTensorMaskedBool.cu
+51>THCTensorMaskedBool.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THC/generated/Debug/torch_generated_THCTensorMathPointwiseBool.cu.obj
+51>THCTensorMathPointwiseBool.cu
+51>THCTensorMathPointwiseBool.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_BCECriterion.cu.obj
+51>BCECriterion.cu
+51>BCECriterion.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_ClassNLLCriterion.cu.obj
+51>ClassNLLCriterion.cu
+51>ClassNLLCriterion.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_ELU.cu.obj
+51>ELU.cu
+51>ELU.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_GatedLinearUnit.cu.obj
+51>GatedLinearUnit.cu
+51>GatedLinearUnit.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_HardTanh.cu.obj
+51>HardTanh.cu
+51>HardTanh.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_LeakyReLU.cu.obj
+51>LeakyReLU.cu
+51>LeakyReLU.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_LogSigmoid.cu.obj
+51>LogSigmoid.cu
+51>LogSigmoid.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_MultiLabelMarginCriterion.cu.obj
+51>MultiLabelMarginCriterion.cu
+51>MultiLabelMarginCriterion.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_MultiMarginCriterion.cu.obj
+51>MultiMarginCriterion.cu
+51>MultiMarginCriterion.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_RReLU.cu.obj
+51>RReLU.cu
+51>RReLU.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_Sigmoid.cu.obj
+51>Sigmoid.cu
+51>Sigmoid.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_SoftMarginCriterion.cu.obj
+51>SoftMarginCriterion.cu
+51>SoftMarginCriterion.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_SoftPlus.cu.obj
+51>SoftPlus.cu
+51>SoftPlus.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_SoftShrink.cu.obj
+51>SoftShrink.cu
+51>SoftShrink.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_SpatialClassNLLCriterion.cu.obj
+51>SpatialClassNLLCriterion.cu
+51>SpatialClassNLLCriterion.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_SpatialConvolutionMM.cu.obj
+51>SpatialConvolutionMM.cu
+51>SpatialConvolutionMM.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_SpatialDepthwiseConvolution.cu.obj
+51>SpatialDepthwiseConvolution.cu
+51>SpatialDepthwiseConvolution.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/THCUNN/Debug/torch_generated_Tanh.cu.obj
+51>Tanh.cu
+51>Tanh.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/cuda/detail/Debug/torch_generated_IndexUtils.cu.obj
+51>IndexUtils.cu
+51>IndexUtils.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Activation.cu.obj
+51>Activation.cu
+51>Activation.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_AdaptiveAveragePooling.cu.obj
+51>AdaptiveAveragePooling.cu
+51>AdaptiveAveragePooling.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_AdaptiveAveragePooling3d.cu.obj
+51>AdaptiveAveragePooling3d.cu
+51>AdaptiveAveragePooling3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_AdaptiveMaxPooling2d.cu.obj
+51>AdaptiveMaxPooling2d.cu
+51>AdaptiveMaxPooling2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_AdaptiveMaxPooling3d.cu.obj
+51>AdaptiveMaxPooling3d.cu
+51>AdaptiveMaxPooling3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_AveragePool2d.cu.obj
+51>AveragePool2d.cu
+51>AveragePool2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_AveragePool3d.cu.obj
+51>AveragePool3d.cu
+51>AveragePool3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_BatchLinearAlgebra.cu.obj
+51>BatchLinearAlgebra.cu
+51>BatchLinearAlgebra.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_BinaryArithmeticKernel.cu.obj
+51>BinaryArithmeticKernel.cu
+51>BinaryArithmeticKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_BinaryCompareKernel.cu.obj
+51>BinaryCompareKernel.cu
+51>BinaryCompareKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_BinaryMiscOpsKernels.cu.obj
+51>BinaryMiscOpsKernels.cu
+51>BinaryMiscOpsKernels.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_CUDAScalar.cu.obj
+51>CUDAScalar.cu
+51>CUDAScalar.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Col2Im.cu.obj
+51>Col2Im.cu
+51>Col2Im.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Copy.cu.obj
+51>Copy.cu
+51>Copy.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_CrossKernel.cu.obj
+51>CrossKernel.cu
+51>CrossKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_DilatedMaxPool2d.cu.obj
+51>DilatedMaxPool2d.cu
+51>DilatedMaxPool2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_DilatedMaxPool3d.cu.obj
+51>DilatedMaxPool3d.cu
+51>DilatedMaxPool3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_DistanceKernel.cu.obj
+51>DistanceKernel.cu
+51>DistanceKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Distributions.cu.obj
+51>Distributions.cu
+51>Distributions.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Dropout.cu.obj
+51>Dropout.cu
+51>Dropout.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Embedding.cu.obj
+51>Embedding.cu
+51>Embedding.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_EmbeddingBackwardKernel.cu.obj
+51>EmbeddingBackwardKernel.cu
+51>EmbeddingBackwardKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_EmbeddingBag.cu.obj
+51>EmbeddingBag.cu
+51>EmbeddingBag.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_FillKernel.cu.obj
+51>FillKernel.cu
+51>FillKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_FractionalMaxPool2d.cu.obj
+51>FractionalMaxPool2d.cu
+51>FractionalMaxPool2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_FractionalMaxPool3d.cu.obj
+51>FractionalMaxPool3d.cu
+51>FractionalMaxPool3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_GridSampler.cu.obj
+51>GridSampler.cu
+51>GridSampler.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Im2Col.cu.obj
+51>Im2Col.cu
+51>Im2Col.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_IndexKernel.cu.obj
+51>IndexKernel.cu
+51>IndexKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Indexing.cu.obj
+51>Indexing.cu
+51>Indexing.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Lerp.cu.obj
+51>Lerp.cu
+51>Lerp.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_LinearAlgebra.cu.obj
+51>LinearAlgebra.cu
+51>LinearAlgebra.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Loss.cu.obj
+51>Loss.cu
+51>Loss.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_LossCTC.cu.obj
+51>LossCTC.cu
+51>LossCTC.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_MaxUnpooling.cu.obj
+51>MaxUnpooling.cu
+51>MaxUnpooling.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_MultinomialKernel.cu.obj
+51>MultinomialKernel.cu
+51>MultinomialKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_NaiveConvolutionTranspose2d.cu.obj
+51>NaiveConvolutionTranspose2d.cu
+51>NaiveConvolutionTranspose2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_NaiveConvolutionTranspose3d.cu.obj
+51>NaiveConvolutionTranspose3d.cu
+51>NaiveConvolutionTranspose3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_NaiveDilatedConvolution.cu.obj
+51>NaiveDilatedConvolution.cu
+51>NaiveDilatedConvolution.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Normalization.cu.obj
+51>Normalization.cu
+51>Normalization.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_PointwiseOpsKernel.cu.obj
+51>PointwiseOpsKernel.cu
+51>PointwiseOpsKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_PowKernel.cu.obj
+51>PowKernel.cu
+51>PowKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_RNN.cu.obj
+51>RNN.cu
+51>RNN.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_RangeFactories.cu.obj
+51>RangeFactories.cu
+51>RangeFactories.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Reduce.cu.obj
+51>Reduce.cu
+51>Reduce.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_ReduceOpsKernel.cu.obj
+51>ReduceOpsKernel.cu
+51>ReduceOpsKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_ReflectionPad.cu.obj
+51>ReflectionPad.cu
+51>ReflectionPad.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Repeat.cu.obj
+51>Repeat.cu
+51>Repeat.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_ReplicationPadding.cu.obj
+51>ReplicationPadding.cu
+51>ReplicationPadding.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Resize.cu.obj
+51>Resize.cu
+51>Resize.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_SoftMax.cu.obj
+51>SoftMax.cu
+51>SoftMax.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_SortingKthValue.cu.obj
+51>SortingKthValue.cu
+51>SortingKthValue.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_SparseMM.cu.obj
+51>SparseMM.cu
+51>SparseMM.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_SpectralOps.cu.obj
+51>SpectralOps.cu
+51>SpectralOps.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_SummaryOps.cu.obj
+51>SummaryOps.cu
+51>SummaryOps.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_TensorCompare.cu.obj
+51>TensorCompare.cu
+51>TensorCompare.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_TensorFactories.cu.obj
+51>TensorFactories.cu
+51>TensorFactories.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_TensorTransformations.cu.obj
+51>TensorTransformations.cu
+51>TensorTransformations.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_TriangularOps.cu.obj
+51>TriangularOps.cu
+51>TriangularOps.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UnaryOpsKernel.cu.obj
+51>UnaryOpsKernel.cu
+51>UnaryOpsKernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_Unique.cu.obj
+51>Unique.cu
+51>Unique.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleBicubic2d.cu.obj
+51>UpSampleBicubic2d.cu
+51>UpSampleBicubic2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleBilinear2d.cu.obj
+51>UpSampleBilinear2d.cu
+51>UpSampleBilinear2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleLinear1d.cu.obj
+51>UpSampleLinear1d.cu
+51>UpSampleLinear1d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleNearest1d.cu.obj
+51>UpSampleNearest1d.cu
+51>UpSampleNearest1d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleNearest2d.cu.obj
+51>UpSampleNearest2d.cu
+51>UpSampleNearest2d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleNearest3d.cu.obj
+51>UpSampleNearest3d.cu
+51>UpSampleNearest3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_UpSampleTrilinear3d.cu.obj
+51>UpSampleTrilinear3d.cu
+51>UpSampleTrilinear3d.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_WeightNorm.cu.obj
+51>WeightNorm.cu
+51>WeightNorm.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/cuda/Debug/torch_generated_layer_norm_kernel.cu.obj
+51>layer_norm_kernel.cu
+51>layer_norm_kernel.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/sparse/cuda/Debug/torch_generated_SparseCUDABlas.cu.obj
+51>SparseCUDABlas.cu
+51>SparseCUDABlas.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/sparse/cuda/Debug/torch_generated_SparseCUDATensor.cu.obj
+51>SparseCUDATensor.cu
+51>SparseCUDATensor.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/sparse/cuda/Debug/torch_generated_SparseCUDATensorMath.cu.obj
+51>SparseCUDATensorMath.cu
+51>SparseCUDATensorMath.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/quantized/cuda/Debug/torch_generated_fake_quantize_core.cu.obj
+51>fake_quantize_core.cu
+51>fake_quantize_core.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/quantized/cuda/Debug/torch_generated_fake_quantize_per_channel_affine.cu.obj
+51>fake_quantize_per_channel_affine.cu
+51>fake_quantize_per_channel_affine.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/__/aten/src/ATen/native/quantized/cuda/Debug/torch_generated_fake_quantize_per_tensor_affine.cu.obj
+51>fake_quantize_per_tensor_affine.cu
+51>fake_quantize_per_tensor_affine.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/core/Debug/torch_generated_context_gpu.cu.obj
+51>context_gpu.cu
+51>context_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/utils/math/Debug/torch_generated_broadcast.cu.obj
+51>broadcast.cu
+51>broadcast.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/utils/math/Debug/torch_generated_elementwise.cu.obj
+51>elementwise.cu
+51>elementwise.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/utils/math/Debug/torch_generated_reduce.cu.obj
+51>reduce.cu
+51>reduce.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/utils/math/Debug/torch_generated_transpose.cu.obj
+51>transpose.cu
+51>transpose.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/utils/Debug/torch_generated_math_gpu.cu.obj
+51>math_gpu.cu
+51>math_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_adadelta_op_gpu.cu.obj
+51>adadelta_op_gpu.cu
+51>adadelta_op_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_adagrad_op_gpu.cu.obj
+51>adagrad_op_gpu.cu
+51>adagrad_op_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_adam_op_gpu.cu.obj
+51>adam_op_gpu.cu
+51>adam_op_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_fp16_momentum_sgd_op.cu.obj
+51>fp16_momentum_sgd_op.cu
+51>fp16_momentum_sgd_op.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_fp32_momentum_sgd_op.cu.obj
+51>fp32_momentum_sgd_op.cu
+51>fp32_momentum_sgd_op.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_lars_op_gpu.cu.obj
+51>lars_op_gpu.cu
+51>lars_op_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_momentum_sgd_op_gpu.cu.obj
+51>momentum_sgd_op_gpu.cu
+51>momentum_sgd_op_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_rmsprop_op_gpu.cu.obj
+51>rmsprop_op_gpu.cu
+51>rmsprop_op_gpu.cu
+51>Building NVCC (Device) object caffe2/CMakeFiles/torch.dir/sgd/Debug/torch_generated_yellowfin_op_gpu.cu.obj
+51>yellowfin_op_gpu.cu
+51>yellowfin_op_gpu.cu
+51>Generating ../../../torch/csrc/autograd/generated/Functions.cpp, ../../../torch/csrc/jit/generated/register_aten_ops_0.cpp, ../../../torch/csrc/jit/generated/register_aten_ops_1.cpp, ../../../torch/csrc/jit/generated/register_aten_ops_2.cpp, ../../../torch/csrc/autograd/generated/VariableType_0.cpp, ../../../torch/csrc/autograd/generated/VariableType_1.cpp, ../../../torch/csrc/autograd/generated/VariableType_2.cpp, ../../../torch/csrc/autograd/generated/VariableType_3.cpp, ../../../torch/csrc/autograd/generated/VariableType_4.cpp, ../../../torch/csrc/autograd/generated/Functions.h, ../../../torch/csrc/autograd/generated/variable_factories.h, ../../../torch/csrc/autograd/generated/VariableType.h, ../../../torch/csrc/autograd/generated/python_functions.cpp, ../../../torch/csrc/autograd/generated/python_variable_methods.cpp, ../../../torch/csrc/autograd/generated/python_torch_functions.cpp, ../../../torch/csrc/autograd/generated/python_nn_functions.cpp, ../../../torch/csrc/autograd/generated/python_functions.h, ../../../torch/csrc/autograd/generated/python_variable_methods_dispatch.h, ../../../torch/csrc/autograd/generated/python_torch_functions_dispatch.h, ../../../torch/csrc/autograd/generated/python_nn_functions.h, ../../../torch/csrc/autograd/generated/python_nn_functions_dispatch.h
+51>Skipped writing torch/csrc/autograd/generated\python_functions.h
+51>Skipped writing torch/csrc/autograd/generated\python_functions.cpp
+51>Skipped writing torch/csrc/autograd/generated\python_variable_methods.cpp
+51>Skipped writing torch/csrc/autograd/generated\python_variable_methods_dispatch.h
+51>Skipped writing torch/csrc/autograd/generated\python_torch_functions.cpp
+51>Skipped writing torch/csrc/autograd/generated\python_torch_functions_dispatch.h
+51>Skipped writing torch/csrc/autograd/generated\python_nn_functions.cpp
+51>Skipped writing torch/csrc/autograd/generated\python_nn_functions.h
+51>Skipped writing torch/csrc/autograd/generated\python_nn_functions_dispatch.h
+51>Skipped writing torch/csrc/autograd/generated\VariableType.h
+51>Skipped writing torch/csrc/autograd/generated\VariableType_0.cpp
+51>Skipped writing torch/csrc/autograd/generated\VariableType_1.cpp
+51>Skipped writing torch/csrc/autograd/generated\VariableType_2.cpp
+51>Skipped writing torch/csrc/autograd/generated\VariableType_3.cpp
+51>Skipped writing torch/csrc/autograd/generated\VariableType_4.cpp
+51>Skipped writing torch/csrc/autograd/generated\VariableTypeEverything.cpp
+51>Skipped writing torch/csrc/autograd/generated\RegistrationDeclarations.h
+51>Skipped writing torch/csrc/autograd/generated\Functions.h
+51>Skipped writing torch/csrc/autograd/generated\Functions.cpp
+51>Skipped writing torch/csrc/autograd/generated\variable_factories.h
+51>Skipped writing torch/csrc/jit/generated\register_aten_ops_0.cpp
+51>Skipped writing torch/csrc/jit/generated\register_aten_ops_1.cpp
+51>Skipped writing torch/csrc/jit/generated\register_aten_ops_2.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>CPUGenerator.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>DLConvertor.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>DynamicLibrary.cpp
+51>ExpandUtils.cpp
+51>MemoryOverlap.cpp
+51>NamedTensorUtils.cpp
+51>ParallelCommon.cpp
+51>ParallelNative.cpp
+51>ParallelNativeTBB.cpp
+51>ParallelOpenMP.cpp
+51>ParallelThreadPoolNative.cpp
+51>SparseTensorImpl.cpp
+51>TensorGeometry.cpp
+51>TensorNames.cpp
+51>TensorUtils.cpp
+51>ThreadLocalDebugInfo.cpp
+51>Version.cpp
+51>FlushDenormal.cpp
+51>CPUGuardImpl.cpp
+51>CUDAHooksInterface.cpp
+51>HIPHooksInterface.cpp
+51>ATenGeneral.cpp
+51>DeprecatedTypeProperties.cpp
+51>DeprecatedTypePropertiesRegistry.cpp
+51>Dimname.cpp
+51>Formatting.cpp
+51>Generator.cpp
+51>LegacyDeviceTypeInit.cpp
+51>LegacyTypeDispatch.cpp
+51>Range.cpp
+51>blob.cpp
+51>Dispatcher.cpp
+51>OperatorEntry.cpp
+51>grad_mode.cpp
+51>interned_strings.cpp
+51>ivalue.cpp
+51>infer_schema.cpp
+51>op_registration.cpp
+51>register_symbols.cpp
+51>type.cpp
+51>error_report.cpp
+51>function_schema_parser.cpp
+51>lexer.cpp
+51>strtod.cpp
+51>schema_type_parser.cpp
+51>source_range.cpp
+51>AdaptiveAveragePooling.cpp
+51>AdaptiveAveragePooling3d.cpp
+51>AdaptiveMaxPooling2d.cpp
+51>AdaptiveMaxPooling3d.cpp
+51>AveragePool2d.cpp
+51>AveragePool3d.cpp
+51>BatchLinearAlgebra.cpp
+51>Col2Im.cpp
+51>ConstantPadNd.cpp
+51>Convolution.cpp
+51>ConvolutionMM2d.cpp
+51>ConvolutionMM3d.cpp
+51>ConvolutionTBC.cpp
+51>Cross.cpp
+51>DilatedMaxPool2d.cpp
+51>DilatedMaxPool3d.cpp
+51>DispatchStub.cpp
+51>Distributions.cpp
+51>EmbeddingBag.cpp
+51>Fill.cpp
+51>FractionalMaxPool2d.cpp
+51>FractionalMaxPool3d.cpp
+51>Im2Col.cpp
+51>Indexing.cpp
+51>Integration.cpp
+51>Itertools.cpp
+51>LegacyBridge.cpp
+51>LegacyNNDefinitions.cpp
+51>Lerp.cpp
+51>LossMultiLabelMargin.cpp
+51>LossMultiMargin.cpp
+51>LossNLL.cpp
+51>LossNLL2d.cpp
+51>MaxUnpooling.cpp
+51>Memory.cpp
+51>NNPACK.cpp
+51>NaiveConvolutionTranspose2d.cpp
+51>NaiveConvolutionTranspose3d.cpp
+51>NaiveDilatedConvolution.cpp
+51>Onehot.cpp
+51>PackedSequence.cpp
+51>PointwiseOps.cpp
+51>Pow.cpp
+51>QuantizedLinear.cpp
+51>RangeFactories.cpp
+51>ReduceOps.cpp
+51>ReflectionPad.cpp
+51>Repeat.cpp
+51>ReplicationPadding.cpp
+51>Resize.cpp
+51>Scalar.cpp
+51>SobolEngineOps.cpp
+51>Sorting.cpp
+51>SummaryOps.cpp
+51>TensorConversions.cpp
+51>TensorIterator.cpp
+51>TensorIteratorReduce.cpp
+51>TensorProperties.cpp
+51>TensorTransformations.cpp
+51>TriangularOps.cpp
+51>TypeProperties.cpp
+51>Unfold2d.cpp
+51>Unfold3d.cpp
+51>Unique.cpp
+51>UpSampleBicubic2d.cpp
+51>UpSampleBilinear2d.cpp
+51>UpSampleLinear1d.cpp
+51>UpSampleNearest1d.cpp
+51>UpSampleNearest2d.cpp
+51>UpSampleNearest3d.cpp
+51>UpSampleTrilinear3d.cpp
+51>VariableMethodStubs.cpp
+51>WeightNorm.cpp
+51>layer_norm.cpp
+51>SparseTensor.cpp
+51>SparseTensorMath.cpp
+51>fake_quantize_core.cpp
+51>fake_quantize_per_channel_affine.cpp
+51>fake_quantize_per_tensor_affine.cpp
+51>fbgemm_utils.cpp
+51>init_qnnpack.cpp
+51>q_adaavgpool.cpp
+51>q_avgpool.cpp
+51>qadd.cpp
+51>qconcat.cpp
+51>qconv.cpp
+51>qconv_prepack.cpp
+51>qconv_unpack.cpp
+51>qlinear.cpp
+51>qlinear_dynamic.cpp
+51>qlinear_prepack.cpp
+51>qlinear_unpack.cpp
+51>qmul.cpp
+51>qpool.cpp
+51>qreduction.cpp
+51>qrelu.cpp
+51>qsort.cpp
+51>qupsample_bilinear2d.cpp
+51>qupsample_nearest2d.cpp
+51>tensor_operators.cpp
+51>IDeepRegistration.cpp
+51>MKLDNNCommon.cpp
+51>MKLDNNConversions.cpp
+51>MkldnnTensorMath.cpp
+51>Relu.cpp
+51>CPUType.cpp
+51>LegacyTHFunctionsCPU.cpp
+51>MkldnnCPUType.cpp
+51>QuantizedCPUType.cpp
+51>SparseCPUType.cpp
+51>TypeDefault.cpp
+51>OpsAlreadyMovedToC10.cpp
+51>THGeneral.cpp
+51>THAllocator.cpp
+51>THSize.cpp
+51>THStorageFunctions.cpp
+51>THTensor.cpp
+51>THTensorRandom.cpp
+51>THTensorFill.cpp
+51>THTensorMath.cpp
+51>THTensorMoreMath.cpp
+51>THTensorEvenMoreMath.cpp
+51>THTensorConv.cpp
+51>THTensorLapack.cpp
+51>THBlas.cpp
+51>THLapack.cpp
+51>THLogAdd.cpp
+51>THFile.cpp
+51>THDiskFile.cpp
+51>THMemoryFile.cpp
+51>THVector.cpp
+51>QTensorImpl.cpp
+51>Quantizer.cpp
+51>allocator.cc
+51>blob_serialization.cc
+51>blob_stats.cc
+51>common.cc
+51>context_base.cc
+51>db.cc
+51>event.cc
+51>export_c10_op_to_caffe2.cc
+51>graph.cc
+51>init_denormals.cc
+51>init_intrinsics_check.cc
+51>init_omp.cc
+51>int8_serialization.cc
+51>memonger.cc
+51>net.cc
+51>net_async_base.cc
+51>net_async_scheduling.cc
+51>net_async_task.cc
+51>net_async_task_future.cc
+51>net_async_task_graph.cc
+51>net_async_tracing.cc
+51>net_dag_utils.cc
+51>net_parallel.cc
+51>net_simple.cc
+51>net_simple_refcount.cc
+51>numa.cc
+51>operator_schema.cc
+51>plan_executor.cc
+51>prof_dag_counters.cc
+51>qtensor_serialization.cc
+51>stats.cc
+51>tensor_int8.cc
+51>test_utils.cc
+51>transform.cc
+51>workspace.cc
+51>inline_container.cc
+51>istream_adapter.cc
+51>file_adapter.cc
+51>read_adapter_interface.cc
+51>bench_utils.cc
+51>cpuid.cc
+51>broadcast.cc
+51>elementwise.cc
+51>reduce.cc
+51>transpose.cc
+51>math_cpu.cc
+51>murmur_hash3.cc
+51>proto_convert.cc
+51>proto_utils.cc
+51>proto_wrap.cc
+51>signal_handler.cc
+51>smart_tensor_printer.cc
+51>string_utils.cc
+51>ThreadPool.cc
+51>embedding_lookup.cc
+51>embedding_lookup_idx.cc
+51>fused_8bit_rowwise_embedding_lookup.cc
+51>fused_8bit_rowwise_embedding_lookup_idx.cc
+51>math_cpu_base.cc
+51>typed_axpy.cc
+51>predictor.cc
+51>predictor_utils.cc
+51>predictor_config.cc
+51>data_filler.cc
+51>NeuralNet.cc
+51>test_util.cc
+51>create_db_op.cc
+51>protodb.cc
+51>file_store_handler.cc
+51>file_store_handler_op.cc
+51>store_handler.cc
+51>store_ops.cc
+51>backend.cc
+51>backend_rep.cc
+51>helper.cc
+51>offline_tensor.cc
+51>onnx_exporter.cc
+51>onnxifi_graph_info.cc
+51>onnxifi_init.cc
+51>annotations.cc
+51>backend_cutting.cc
+51>backend_transformer_base.cc
+51>bound_shape_inferencer.cc
+51>converter.cc
+51>dead_code_elim.cc
+51>distributed_converter.cc
+51>fusion.cc
+51>mobile.cc
+51>onnxifi_op.cc
+51>onnxifi_transformer.cc
+51>optimize_ideep.cc
+51>passes.cc
+51>shape_info.cc
+51>tvm_transformer.cc
+51>blobs_queue.cc
+51>blobs_queue_db.cc
+51>queue_ops.cc
+51>rebatching_queue.cc
+51>rebatching_queue_ops.cc
+51>adadelta_op.cc
+51>adagrad_op.cc
+51>adam_op.cc
+51>clip_tensor_op.cc
+51>ftrl_op.cc
+51>gftrl_op.cc
+51>iter_op.cc
+51>lars_op.cc
+51>learning_rate_adaption_op.cc
+51>learning_rate_op.cc
+51>momentum_sgd_op.cc
+51>rmsprop_op.cc
+51>wngrad_op.cc
+51>yellowfin_op.cc
+51>conv_to_nnpack_transform.cc
+51>pattern_net_transform.cc
+51>single_op_transform.cc
+51>Functions.cpp
+51>register_aten_ops_0.cpp
+51>register_aten_ops_1.cpp
+51>register_aten_ops_2.cpp
+51>VariableType_0.cpp
+51>VariableType_1.cpp
+51>VariableType_2.cpp
+51>VariableType_3.cpp
+51>VariableType_4.cpp
+51>anomaly_mode.cpp
+51>autograd.cpp
+51>custom_function.cpp
+51>cpp_hook.cpp
+51>engine.cpp
+51>function_hook.cpp
+51>accumulate_grad.cpp
+51>basic_ops.cpp
+51>input_buffer.cpp
+51>profiler.cpp
+51>record_function.cpp
+51>record_function_ops.cpp
+51>saved_variable.cpp
+51>variable.cpp
+51>autodiff.cpp
+51>attributes.cpp
+51>argument_spec.cpp
+51>pass_manager.cpp
+51>pickler.cpp
+51>unpickler.cpp
+51>graph_executor.cpp
+51>import_source.cpp
+51>pickle.cpp
+51>import_export_helpers.cpp
+51>instruction.cpp
+51>constants.cpp
+51>node_hashing.cpp
+51>ir.cpp
+51>irparser.cpp
+51>jit_log.cpp
+51>register_c10_ops.cpp
+51>subgraph_matcher.cpp
+51>symbolic_script.cpp
+51>profiling_record.cpp
+51>profiling_graph_executor_impl.cpp
+51>update_graph_executor_opt.cpp
+51>alias_analysis.cpp
+51>batch_mm.cpp
+51>bailout_graph.cpp
+51>canonicalize.cpp
+51>clear_undefinedness.cpp
+51>constant_propagation.cpp
+51>constant_pooling.cpp
+51>create_autodiff_subgraphs.cpp
+51>inline_autodiff_subgraphs.cpp
+51>insert_guards.cpp
+51>inliner.cpp
+51>lift_closures.cpp
+51>inline_forked_closures.cpp
+51>dead_code_elimination.cpp
+51>decompose_ops.cpp
+51>canonicalize_ops.cpp
+51>erase_number_types.cpp
+51>fixup_trace_scope_blocks.cpp
+51>inline_fork_wait.cpp
+51>graph_fuser.cpp
+51>guard_elimination.cpp
+51>inplace_check.cpp
+51>liveness.cpp
+51>loop_unrolling.cpp
+51>lower_grad_of.cpp
+51>lower_graph.cpp
+51>lower_tuples.cpp
+51>peephole.cpp
+51>remove_expands.cpp
+51>remove_inplace_ops.cpp
+51>shape_analysis.cpp
+51>requires_grad_analysis.cpp
+51>specialize_autogradzero.cpp
+51>subgraph_rewrite.cpp
+51>python_print.cpp
+51>subgraph_utils.cpp
+51>check_alias_annotation.cpp
+51>memory_dag.cpp
+51>quantization.cpp
+51>fuse_linear.cpp
+51>print_handler.cpp
+51>interface.cpp
+51>register_prim_ops.cpp
+51>register_string_ops.cpp
+51>register_special_ops.cpp
+51>scope.cpp
+51>file_check.cpp
+51>convert_to_ssa.cpp
+51>exit_transforms.cpp
+51>inline_loop_condition.cpp
+51>schema_matching.cpp
+51>script_type_parser.cpp
+51>sugared_value.cpp
+51>class_type.cpp
+51>parser.cpp
+51>builtin_functions.cpp
+51>canonicalize_modified_loop.cpp
+51>edit_distance.cpp
+51>logging.cpp
+51>object.cpp
+51>jit_exception.cpp
+51>source_range_serialization.cpp
+51>tracer.cpp
+51>hooks_for_testing.cpp
+51>tensor_flatten.cpp
+51>variadic.cpp
+51>kernel_cache.cpp
+51>executor.cpp
+51>codegen.cpp
+51>fallback.cpp
+51>vararg_functions.cpp
+51>register_mobile_ops.cpp
+51>VariableTypeManual.cpp
+51>jit.cpp
+51>export.cpp
+51>import_legacy.cpp
+51>netdef_converter.cpp
+51>byte_order.cpp
+51>cuda.cpp
+51>mnist.cpp
+51>random.cpp
+51>sequential.cpp
+51>stream.cpp
+51>enum.cpp
+51>_functions.cpp
+51>fold.cpp
+51>upsampling.cpp
+51>functional.cpp
+51>named_any.cpp
+51>vision.cpp
+51>adam.cpp
+51>lbfgs.cpp
+51>rmsprop.cpp
+51>sgd.cpp
+51>input-archive.cpp
+51>output-archive.cpp
+51>BatchNorm_miopen.cpp
+51>Conv_miopen.cpp
+51>RNN_miopen.cpp
+51>SparseCUDATensor.cpp
+51>CUDABlas.cpp
+51>CUDAContext.cpp
+51>CUDAGenerator.cpp
+51>CuSparseHandlePool.cpp
+51>CublasHandlePool.cpp
+51>PinnedMemoryAllocator.cpp
+51>CUDAHooks.cpp
+51>CUDAUnaryOps.cpp
+51>TensorShapeCUDA.cpp
+51>CUDAType.cpp
+51>LegacyTHFunctionsCUDA.cpp
+51>SparseCUDAType.cpp
+51>THCCachingHostAllocator.cpp
+51>THCGeneral.cpp
+51>THCStorageCopy.cpp
+51>THCTensor.cpp
+51>Descriptors.cpp
+51>Handle.cpp
+51>common_cudnn.cc
+51>blob_serialization_gpu.cc
+51>common_gpu.cc
+51>event_gpu.cc
+51>create_db_op_gpu.cc
+51>file_store_handler_op_gpu.cc
+51>queue_ops_gpu.cc
+51>iter_op_gpu.cc
+51>learning_rate_op_gpu.cc
+51>profiler_cuda.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Context.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Utils.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>NamedTensor.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Tensor.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Activation.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>AffineGridGenerator.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>BinaryOps.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Copy.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Distance.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Dropout.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Embedding.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>GridSampler.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>LegacyDefinitions.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Linear.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>LinearAlgebra.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Loss.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>LossCTC.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>NamedTensor.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Normalization.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>PixelShuffle.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Pooling.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>RNN.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>SoftMax.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>SpectralOps.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorCompare.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorFactories.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorShape.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>UnaryOps.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Copy.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>QTensor.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorCompare.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorFactories.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>LinearAlgebra.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>SpectralOps.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>BinaryOps.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Conv.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Linear.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Normalization.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Pooling.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>SoftMax.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorFactories.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorShape.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>UnaryOps.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Utils.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>AVX2.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>init.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>QuantizedOpKernels.cpp.AVX2.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>layer_norm_kernel.cpp.AVX2.cpp
+51>Unfold2d.cpp.AVX2.cpp
+51>UnaryOpsKernel.cpp.AVX2.cpp
+51>TensorCompareKernel.cpp.AVX2.cpp
+51>SortingKernel.cpp.AVX2.cpp
+51>SoftMaxKernel.cpp.AVX2.cpp
+51>ReduceOpsKernel.cpp.AVX2.cpp
+51>PowKernel.cpp.AVX2.cpp
+51>PointwiseOpsKernel.cpp.AVX2.cpp
+51>MultinomialKernel.cpp.AVX2.cpp
+51>LerpKernel.cpp.AVX2.cpp
+51>IndexKernel.cpp.AVX2.cpp
+51>GridSamplerKernel.cpp.AVX2.cpp
+51>FillKernel.cpp.AVX2.cpp
+51>DistanceOpsKernel.cpp.AVX2.cpp
+51>DepthwiseConvKernel.cpp.AVX2.cpp
+51>CrossKernel.cpp.AVX2.cpp
+51>CopyKernel.cpp.AVX2.cpp
+51>BinaryOpsKernel.cpp.AVX2.cpp
+51>Activation.cpp.AVX2.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>QuantizedOpKernels.cpp.AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>layer_norm_kernel.cpp.AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Unfold2d.cpp.AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>UnaryOpsKernel.cpp.AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorCompareKernel.cpp.AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>SortingKernel.cpp.AVX.cpp
+51>SoftMaxKernel.cpp.AVX.cpp
+51>ReduceOpsKernel.cpp.AVX.cpp
+51>PowKernel.cpp.AVX.cpp
+51>PointwiseOpsKernel.cpp.AVX.cpp
+51>MultinomialKernel.cpp.AVX.cpp
+51>LerpKernel.cpp.AVX.cpp
+51>IndexKernel.cpp.AVX.cpp
+51>GridSamplerKernel.cpp.AVX.cpp
+51>FillKernel.cpp.AVX.cpp
+51>DistanceOpsKernel.cpp.AVX.cpp
+51>DepthwiseConvKernel.cpp.AVX.cpp
+51>CrossKernel.cpp.AVX.cpp
+51>CopyKernel.cpp.AVX.cpp
+51>BinaryOpsKernel.cpp.AVX.cpp
+51>Activation.cpp.AVX.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>QuantizedOpKernels.cpp.DEFAULT.cpp
+51>layer_norm_kernel.cpp.DEFAULT.cpp
+51>Unfold2d.cpp.DEFAULT.cpp
+51>UnaryOpsKernel.cpp.DEFAULT.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>TensorCompareKernel.cpp.DEFAULT.cpp
+51>SortingKernel.cpp.DEFAULT.cpp
+51>SoftMaxKernel.cpp.DEFAULT.cpp
+51>ReduceOpsKernel.cpp.DEFAULT.cpp
+51>PowKernel.cpp.DEFAULT.cpp
+51>PointwiseOpsKernel.cpp.DEFAULT.cpp
+51>MultinomialKernel.cpp.DEFAULT.cpp
+51>LerpKernel.cpp.DEFAULT.cpp
+51>IndexKernel.cpp.DEFAULT.cpp
+51>GridSamplerKernel.cpp.DEFAULT.cpp
+51>FillKernel.cpp.DEFAULT.cpp
+51>DistanceOpsKernel.cpp.DEFAULT.cpp
+51>DepthwiseConvKernel.cpp.DEFAULT.cpp
+51>CrossKernel.cpp.DEFAULT.cpp
+51>CopyKernel.cpp.DEFAULT.cpp
+51>BinaryOpsKernel.cpp.DEFAULT.cpp
+51>Activation.cpp.DEFAULT.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>context.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>init.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>module.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>operator.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>qtensor.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>tensor.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>types.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>miniz.c
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>utils.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>adagrad.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>device.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>device.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>distributed.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>optimizer.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>common_subexpression_elimination.cc
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>function.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>tensor.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>utils.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>import.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>interpreter.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>operator.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>common_subexpression_elimination.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>compiler.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>module.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>compiler.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>function.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>function.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>import.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>module.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>interpreter.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>fused_kernel.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>distributed.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>serialize.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>init.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>module.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>activation.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>batchnorm.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>normalization.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>conv.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>dropout.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>distance.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>embedding.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>linear.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>loss.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>padding.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>pixelshuffle.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>pooling.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>rnn.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>activation.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>batchnorm.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>embedding.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>normalization.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>conv.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>dropout.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>linear.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>padding.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>pooling.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>rnn.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>adagrad.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>optimizer.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>serialize.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>AffineGridGenerator.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>BatchNorm.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Conv.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>GridSampler.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>LossCTC.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>RNN.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>LegacyDefinitions.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>Types.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>fused_kernel.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>comm.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>comm.cpp
+51>cl : command line warning D9025: overriding '/W1' with '/w'
+51>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/torch.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/torch.exp
+51>CuSparseHandlePool.obj : error LNK2019: unresolved external symbol "char const * __cdecl cusparseGetErrorString(enum cusparseStatus_t)" (?cusparseGetErrorString@@YAPEBDW4cusparseStatus_t@@@Z) referenced in function "void __cdecl at::cuda::`anonymous namespace'::createCusparseHandle(struct cusparseContext * *)" (?createCusparseHandle@?A0x9150e0b4@cuda@at@@YAXPEAPEAUcusparseContext@@@Z)
+51>  Hint on symbols that are defined and could potentially match:
+51>    cusparseGetErrorString
+51>C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\torch.dll : fatal error LNK1120: 1 unresolved externals
+51>Done building project "torch.vcxproj" -- FAILED.
+52>------ Build started: Project: KernelFunction_test, Configuration: Debug x64 ------
+53>------ Build started: Project: List_test, Configuration: Debug x64 ------
+54>------ Build started: Project: MatchTest, Configuration: Debug x64 ------
+55>------ Build started: Project: NamedTensor_test, Configuration: Debug x64 ------
+56>------ Build started: Project: NeuralNetTest, Configuration: Debug x64 ------
+57>------ Build started: Project: SubgraphMatcherTest, Configuration: Debug x64 ------
+58>------ Build started: Project: TensorImpl_test, Configuration: Debug x64 ------
+59>------ Build started: Project: TopoSortTest, Configuration: Debug x64 ------
+54>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/MatchTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/MatchTest.exp
+53>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/List_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/List_test.exp
+55>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/NamedTensor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/NamedTensor_test.exp
+56>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/NeuralNetTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/NeuralNetTest.exp
+52>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/KernelFunction_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/KernelFunction_test.exp
+57>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/SubgraphMatcherTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/SubgraphMatcherTest.exp
+53>List_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\List_test.exe
+52>KernelFunction_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\KernelFunction_test.exe
+56>NeuralNetTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\NeuralNetTest.exe
+58>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/TensorImpl_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/TensorImpl_test.exp
+55>NamedTensor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\NamedTensor_test.exe
+59>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/TopoSortTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/TopoSortTest.exp
+57>SubgraphMatcherTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\SubgraphMatcherTest.exe
+58>TensorImpl_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\TensorImpl_test.exe
+59>TopoSortTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\TopoSortTest.exe
+54>MatchTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\MatchTest.exe
+60>------ Build started: Project: apply_utils_test, Configuration: Debug x64 ------
+61>------ Build started: Project: atest, Configuration: Debug x64 ------
+62>------ Build started: Project: backend_cutting_test, Configuration: Debug x64 ------
+63>------ Build started: Project: basic, Configuration: Debug x64 ------
+64>------ Build started: Project: blob_gpu_test, Configuration: Debug x64 ------
+65>------ Build started: Project: blob_test, Configuration: Debug x64 ------
+66>------ Build started: Project: bound_shape_inference_test, Configuration: Debug x64 ------
+62>backend_cutting_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\backend_cutting_test.exe
+67>------ Build started: Project: broadcast_test, Configuration: Debug x64 ------
+60>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/apply_utils_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/apply_utils_test.exp
+60>apply_utils_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\apply_utils_test.exe
+63>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/basic.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/basic.exp
+63>basic.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\basic.exe
+61>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/atest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/atest.exp
+61>atest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\atest.exe
+68>------ Build started: Project: caffe2_module_test_dynamic, Configuration: Debug x64 ------
+64>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/blob_gpu_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/blob_gpu_test.exp
+64>blob_gpu_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\blob_gpu_test.exe
+69>------ Build started: Project: cast_test, Configuration: Debug x64 ------
+67>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/broadcast_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/broadcast_test.exp
+67>broadcast_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\broadcast_test.exe
+70>------ Build started: Project: common_subexpression_elimination_test, Configuration: Debug x64 ------
+71>------ Build started: Project: common_test, Configuration: Debug x64 ------
+72>------ Build started: Project: context_gpu_test, Configuration: Debug x64 ------
+66>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/bound_shape_inference_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/bound_shape_inference_test.exp
+66>bound_shape_inference_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\bound_shape_inference_test.exe
+68>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/caffe2_module_test_dynamic.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/caffe2_module_test_dynamic.exp
+68>caffe2_module_test_dynamic.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\caffe2_module_test_dynamic.dll
+73>------ Build started: Project: context_test, Configuration: Debug x64 ------
+74>------ Build started: Project: conv_to_nnpack_transform_test, Configuration: Debug x64 ------
+69>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cast_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cast_test.exp
+69>cast_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cast_test.exe
+65>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/blob_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/blob_test.exp
+65>blob_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\blob_test.exe
+70>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/common_subexpression_elimination_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/common_subexpression_elimination_test.exp
+70>common_subexpression_elimination_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\common_subexpression_elimination_test.exe
+75>------ Build started: Project: converter_nomigraph_test, Configuration: Debug x64 ------
+72>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/context_gpu_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/context_gpu_test.exp
+72>context_gpu_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\context_gpu_test.exe
+71>common_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\common_test.exe
+73>context_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\context_test.exe
+76>------ Build started: Project: cpu_generator_test, Configuration: Debug x64 ------
+77>------ Build started: Project: cpuid_test, Configuration: Debug x64 ------
+78>------ Build started: Project: cuda_apply_test, Configuration: Debug x64 ------
+75>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/converter_nomigraph_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/converter_nomigraph_test.exp
+75>converter_nomigraph_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\converter_nomigraph_test.exe
+74>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/conv_to_nnpack_transform_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/conv_to_nnpack_transform_test.exp
+74>conv_to_nnpack_transform_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\conv_to_nnpack_transform_test.exe
+79>------ Build started: Project: cuda_cudnn_test, Configuration: Debug x64 ------
+76>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cpu_generator_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cpu_generator_test.exp
+76>cpu_generator_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cpu_generator_test.exe
+80>------ Build started: Project: cuda_distributions_test, Configuration: Debug x64 ------
+77>cpuid_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cpuid_test.exe
+81>------ Build started: Project: cuda_generator_test, Configuration: Debug x64 ------
+78>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_apply_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_apply_test.exp
+78>cuda_apply_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_apply_test.exe
+82>------ Build started: Project: cuda_half_test, Configuration: Debug x64 ------
+83>------ Build started: Project: cuda_integer_divider_test, Configuration: Debug x64 ------
+84>------ Build started: Project: cuda_optional_test, Configuration: Debug x64 ------
+85>------ Build started: Project: cuda_packedtensoraccessor_test, Configuration: Debug x64 ------
+79>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_cudnn_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_cudnn_test.exp
+79>cuda_cudnn_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_cudnn_test.exe
+86>------ Build started: Project: cuda_stream_test, Configuration: Debug x64 ------
+87>------ Build started: Project: cuda_tensor_interop_test, Configuration: Debug x64 ------
+80>Building NVCC (Device) object caffe2/CMakeFiles/cuda_distributions_test.dir/__/aten/src/ATen/test/Debug/cuda_distributions_test_generated_cuda_distributions_test.cu.obj
+81>Building NVCC (Device) object caffe2/CMakeFiles/cuda_generator_test.dir/__/aten/src/ATen/test/Debug/cuda_generator_test_generated_cuda_generator_test.cu.obj
+82>Building NVCC (Device) object caffe2/CMakeFiles/cuda_half_test.dir/__/aten/src/ATen/test/Debug/cuda_half_test_generated_cuda_half_test.cu.obj
+83>Building NVCC (Device) object caffe2/CMakeFiles/cuda_integer_divider_test.dir/__/aten/src/ATen/test/Debug/cuda_integer_divider_test_generated_cuda_integer_divider_test.cu.obj
+85>Building NVCC (Device) object caffe2/CMakeFiles/cuda_packedtensoraccessor_test.dir/__/aten/src/ATen/test/Debug/cuda_packedtensoraccessor_test_generated_cuda_packedtensoraccessor_test.cu.obj
+84>Building NVCC (Device) object caffe2/CMakeFiles/cuda_optional_test.dir/__/aten/src/ATen/test/Debug/cuda_optional_test_generated_cuda_optional_test.cu.obj
+86>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_stream_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_stream_test.exp
+86>cuda_stream_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_stream_test.exe
+88>------ Build started: Project: data_filler_test, Configuration: Debug x64 ------
+87>cuda_tensor_interop_test.cpp
+88>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/data_filler_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/data_filler_test.exp
+88>data_filler_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\data_filler_test.exe
+89>------ Build started: Project: dead_code_elim_test, Configuration: Debug x64 ------
+89>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/dead_code_elim_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/dead_code_elim_test.exp
+89>dead_code_elim_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\dead_code_elim_test.exe
+90>------ Build started: Project: device_test, Configuration: Debug x64 ------
+90>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/device_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/device_test.exp
+90>device_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\device_test.exe
+91>------ Build started: Project: distributed_test, Configuration: Debug x64 ------
+91>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/distributed_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/distributed_test.exp
+91>distributed_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\distributed_test.exe
+92>------ Build started: Project: dlconvertor_test, Configuration: Debug x64 ------
+85>cuda_packedtensoraccessor_test.cu
+80>cuda_distributions_test.cu
+81>cuda_generator_test.cu
+82>cuda_half_test.cu
+83>cuda_integer_divider_test.cu
+84>cuda_optional_test.cu
+92>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/dlconvertor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/dlconvertor_test.exp
+92>dlconvertor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\dlconvertor_test.exe
+93>------ Build started: Project: event_gpu_test, Configuration: Debug x64 ------
+93>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/event_gpu_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/event_gpu_test.exp
+93>event_gpu_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\event_gpu_test.exe
+94>------ Build started: Project: event_test, Configuration: Debug x64 ------
+94>event_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\event_test.exe
+95>------ Build started: Project: extension_backend_test, Configuration: Debug x64 ------
+95>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/extension_backend_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/extension_backend_test.exp
+95>extension_backend_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\extension_backend_test.exe
+96>------ Build started: Project: fatal_signal_asan_no_sig_test, Configuration: Debug x64 ------
+96>fatal_signal_asan_no_sig_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\fatal_signal_asan_no_sig_test.exe
+97>------ Build started: Project: fixed_divisor_test, Configuration: Debug x64 ------
+97>fixed_divisor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\fixed_divisor_test.exe
+98>------ Build started: Project: graph_test, Configuration: Debug x64 ------
+98>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/graph_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/graph_test.exp
+98>graph_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\graph_test.exe
+99>------ Build started: Project: half_test, Configuration: Debug x64 ------
+99>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/half_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/half_test.exp
+99>half_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\half_test.exe
+100>------ Build started: Project: init_test, Configuration: Debug x64 ------
+87>cl : command line warning D9025: overriding '/W1' with '/w'
+87>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_tensor_interop_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_tensor_interop_test.exp
+100>init_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\init_test.exe
+101>------ Build started: Project: inline_container_test, Configuration: Debug x64 ------
+87>cuda_tensor_interop_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_tensor_interop_test.exe
+87>Done building project "cuda_tensor_interop_test.vcxproj".
+102>------ Build started: Project: kernel_function_legacy_test, Configuration: Debug x64 ------
+101>inline_container_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\inline_container_test.exe
+103>------ Build started: Project: kernel_function_test, Configuration: Debug x64 ------
+102>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_function_legacy_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_function_legacy_test.exp
+102>kernel_function_legacy_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\kernel_function_legacy_test.exe
+104>------ Build started: Project: kernel_functor_test, Configuration: Debug x64 ------
+103>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_function_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_function_test.exp
+103>kernel_function_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\kernel_function_test.exe
+105>------ Build started: Project: kernel_lambda_legacy_test, Configuration: Debug x64 ------
+104>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_functor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_functor_test.exp
+104>kernel_functor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\kernel_functor_test.exe
+106>------ Build started: Project: kernel_lambda_test, Configuration: Debug x64 ------
+106>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_lambda_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_lambda_test.exp
+105>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_lambda_legacy_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_lambda_legacy_test.exp
+106>kernel_lambda_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\kernel_lambda_test.exe
+107>------ Build started: Project: kernel_stackbased_test, Configuration: Debug x64 ------
+105>kernel_lambda_legacy_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\kernel_lambda_legacy_test.exe
+108>------ Build started: Project: TarjansImplTest, Configuration: Debug x64 ------
+107>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_stackbased_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/kernel_stackbased_test.exp
+107>kernel_stackbased_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\kernel_stackbased_test.exe
+109>------ Build started: Project: AlgorithmsTest, Configuration: Debug x64 ------
+108>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/TarjansImplTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/TarjansImplTest.exp
+108>TarjansImplTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\TarjansImplTest.exe
+110>------ Build started: Project: math_gpu_test, Configuration: Debug x64 ------
+109>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/AlgorithmsTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/AlgorithmsTest.exp
+109>AlgorithmsTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\AlgorithmsTest.exe
+111>------ Build started: Project: math_test, Configuration: Debug x64 ------
+110>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/math_gpu_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/math_gpu_test.exp
+110>math_gpu_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\math_gpu_test.exe
+112>------ Build started: Project: memory_overlapping_test, Configuration: Debug x64 ------
+111>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/math_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/math_test.exp
+111>math_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\math_test.exe
+112>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/memory_overlapping_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/memory_overlapping_test.exp
+113>------ Build started: Project: mobile_test, Configuration: Debug x64 ------
+112>memory_overlapping_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\memory_overlapping_test.exe
+114>------ Build started: Project: module_test, Configuration: Debug x64 ------
+113>mobile_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\mobile_test.exe
+115>------ Build started: Project: native_test, Configuration: Debug x64 ------
+114>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/module_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/module_test.exp
+114>module_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\module_test.exe
+116>------ Build started: Project: net_async_tracing_test, Configuration: Debug x64 ------
+115>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/native_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/native_test.exp
+116>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_async_tracing_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_async_tracing_test.exp
+115>native_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\native_test.exe
+117>------ Build started: Project: net_dag_utils_test, Configuration: Debug x64 ------
+116>net_async_tracing_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\net_async_tracing_test.exe
+118>------ Build started: Project: net_gpu_test, Configuration: Debug x64 ------
+117>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_dag_utils_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_dag_utils_test.exp
+118>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_gpu_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_gpu_test.exp
+118>net_gpu_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\net_gpu_test.exe
+117>net_dag_utils_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\net_dag_utils_test.exe
+119>------ Build started: Project: net_simple_refcount_test, Configuration: Debug x64 ------
+120>------ Build started: Project: net_test, Configuration: Debug x64 ------
+119>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_simple_refcount_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_simple_refcount_test.exp
+83>cuda_integer_divider_test.cu
+120>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/net_test.exp
+119>net_simple_refcount_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\net_simple_refcount_test.exe
+120>net_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\net_test.exe
+121>------ Build started: Project: observer_test, Configuration: Debug x64 ------
+122>------ Build started: Project: BinaryMatchImplTest, Configuration: Debug x64 ------
+121>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/observer_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/observer_test.exp
+122>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/BinaryMatchImplTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/BinaryMatchImplTest.exp
+121>observer_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\observer_test.exe
+122>BinaryMatchImplTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\BinaryMatchImplTest.exe
+123>------ Build started: Project: Dict_test, Configuration: Debug x64 ------
+124>------ Build started: Project: op_registration_test, Configuration: Debug x64 ------
+123>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/Dict_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/Dict_test.exp
+123>Dict_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\Dict_test.exe
+125>------ Build started: Project: operator_gpu_test, Configuration: Debug x64 ------
+125>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/operator_gpu_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/operator_gpu_test.exp
+125>operator_gpu_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\operator_gpu_test.exe
+126>------ Build started: Project: operator_schema_test, Configuration: Debug x64 ------
+124>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/op_registration_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/op_registration_test.exp
+126>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/operator_schema_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/operator_schema_test.exp
+124>op_registration_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\op_registration_test.exe
+127>------ Build started: Project: operator_test, Configuration: Debug x64 ------
+126>operator_schema_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\operator_schema_test.exe
+83>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+83>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(638): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,Value&,unsigned __int64,int&>(_Alloc &,_Objty *const ,Value &,unsigned __int64 &&,int &)' being compiled
+83>        with
+128>------ Build started: Project: parallel_net_test, Configuration: Debug x64 ------
+85>cuda_packedtensoraccessor_test.cu
+83>        [
+83>            _Alloc=std::allocator<TestCase<unsigned __int64>>,
+83>            _Ty=TestCase<unsigned __int64>,
+83>            Value=unsigned __int64,
+83>            _Objty=TestCase<unsigned __int64>
+83>        ]
+83>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(638): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,Value&,unsigned __int64,int&>(_Alloc &,_Objty *const ,Value &,unsigned __int64 &&,int &)' being compiled
+83>        with
+83>        [
+83>            _Alloc=std::allocator<TestCase<unsigned __int64>>,
+83>            _Ty=TestCase<unsigned __int64>,
+83>            Value=unsigned __int64,
+83>            _Objty=TestCase<unsigned __int64>
+83>        ]
+83>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vector(656): note: see reference to function template instantiation 'void std::vector<TestCase<Value>,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<Value&,unsigned __int64,int&>(Value &,unsigned __int64 &&,int &)' being compiled
+83>        with
+83>        [
+83>            Value=unsigned __int64,
+83>            _Ty=TestCase<unsigned __int64>
+83>        ]
+83>C:/Users/Andrej/Documents/pytorch/aten/src/ATen/test/cuda_integer_divider_test.cu(90): note: see reference to function template instantiation 'void std::vector<TestCase<Value>,std::allocator<_Ty>>::emplace_back<Value&,unsigned __int64,int&>(Value &,unsigned __int64 &&,int &)' being compiled
+83>        with
+83>        [
+83>            Value=unsigned __int64,
+83>            _Ty=TestCase<unsigned __int64>
+83>        ]
+83>C:/Users/Andrej/Documents/pytorch/aten/src/ATen/test/cuda_integer_divider_test.cu(84): note: while compiling class template member function 'void IntDividerTester<unsigned __int64>::addTestCase(Value,Value,int)'
+83>        with
+83>        [
+83>            Value=unsigned __int64
+83>        ]
+83>C:/Users/Andrej/Documents/pytorch/aten/src/ATen/test/cuda_integer_divider_test.cu(185): note: see reference to function template instantiation 'void IntDividerTester<unsigned __int64>::addTestCase(Value,Value,int)' being compiled
+83>        with
+83>        [
+83>            Value=unsigned __int64
+83>        ]
+83>C:/Users/Andrej/Documents/pytorch/aten/src/ATen/test/cuda_integer_divider_test.cu(178): note: see reference to class template instantiation 'IntDividerTester<unsigned __int64>' being compiled
+80>cuda_distributions_test.cu
+84>cuda_optional_test.cu
+82>cuda_half_test.cu
+81>cuda_generator_test.cu
+83>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_integer_divider_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_integer_divider_test.exp
+83>cuda_integer_divider_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_integer_divider_test.exe
+83>Done building project "cuda_integer_divider_test.vcxproj".
+129>------ Build started: Project: pattern_net_transform_test, Configuration: Debug x64 ------
+128>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/parallel_net_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/parallel_net_test.exp
+127>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/operator_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/operator_test.exp
+128>parallel_net_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\parallel_net_test.exe
+127>operator_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\operator_test.exe
+130>------ Build started: Project: pow_test, Configuration: Debug x64 ------
+131>------ Build started: Project: predictor_test, Configuration: Debug x64 ------
+129>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/pattern_net_transform_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/pattern_net_transform_test.exp
+129>pattern_net_transform_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\pattern_net_transform_test.exe
+132>------ Build started: Project: proto_utils_test, Configuration: Debug x64 ------
+130>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/pow_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/pow_test.exp
+131>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/predictor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/predictor_test.exp
+130>pow_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\pow_test.exe
+133>------ Build started: Project: Dimname_test, Configuration: Debug x64 ------
+132>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/proto_utils_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/proto_utils_test.exp
+131>predictor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\predictor_test.exe
+134>------ Build started: Project: quantized_test, Configuration: Debug x64 ------
+132>proto_utils_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\proto_utils_test.exe
+133>Dimname_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\Dimname_test.exe
+135>------ Build started: Project: reduce_ops_test, Configuration: Debug x64 ------
+136>------ Build started: Project: scalar_tensor_test, Configuration: Debug x64 ------
+134>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/quantized_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/quantized_test.exp
+134>quantized_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\quantized_test.exe
+137>------ Build started: Project: scalar_test, Configuration: Debug x64 ------
+135>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/reduce_ops_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/reduce_ops_test.exp
+136>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/scalar_tensor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/scalar_tensor_test.exp
+135>reduce_ops_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\reduce_ops_test.exe
+136>scalar_tensor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\scalar_tensor_test.exe
+138>------ Build started: Project: simple_queue_test, Configuration: Debug x64 ------
+139>------ Build started: Project: smart_tensor_printer_test, Configuration: Debug x64 ------
+137>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/scalar_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/scalar_test.exp
+137>scalar_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\scalar_test.exe
+138>simple_queue_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\simple_queue_test.exe
+140>------ Build started: Project: ssa_test, Configuration: Debug x64 ------
+141>------ Build started: Project: stats_test, Configuration: Debug x64 ------
+139>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/smart_tensor_printer_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/smart_tensor_printer_test.exp
+139>smart_tensor_printer_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\smart_tensor_printer_test.exe
+142>------ Build started: Project: tensor_interop_test, Configuration: Debug x64 ------
+140>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/ssa_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/ssa_test.exp
+141>stats_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\stats_test.exe
+140>ssa_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\ssa_test.exe
+143>------ Build started: Project: tensor_iterator_test, Configuration: Debug x64 ------
+142>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/tensor_interop_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/tensor_interop_test.exp
+142>tensor_interop_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\tensor_interop_test.exe
+144>------ Build started: Project: test_api, Configuration: Debug x64 ------
+145>------ Build started: Project: test_parallel, Configuration: Debug x64 ------
+143>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/tensor_iterator_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/tensor_iterator_test.exp
+143>tensor_iterator_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\tensor_iterator_test.exe
+146>------ Build started: Project: thread_init_test, Configuration: Debug x64 ------
+145>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/test_parallel.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/test_parallel.exp
+145>test_parallel.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\test_parallel.exe
+147>------ Build started: Project: timer_test, Configuration: Debug x64 ------
+146>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/thread_init_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/thread_init_test.exp
+80>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_distributions_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_distributions_test.exp
+146>thread_init_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\thread_init_test.exe
+80>cuda_distributions_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_distributions_test.exe
+82>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_half_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_half_test.exp
+82>cuda_half_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_half_test.exe
+148>------ Build started: Project: GraphTest, Configuration: Debug x64 ------
+81>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_generator_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_generator_test.exp
+81>cuda_generator_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_generator_test.exe
+85>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_packedtensoraccessor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_packedtensoraccessor_test.exp
+85>cuda_packedtensoraccessor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_packedtensoraccessor_test.exe
+149>------ Build started: Project: transform_test, Configuration: Debug x64 ------
+84>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_optional_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/cuda_optional_test.exp
+84>cuda_optional_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\cuda_optional_test.exe
+147>timer_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\timer_test.exe
+150>------ Build started: Project: undefined_tensor_test, Configuration: Debug x64 ------
+151>------ Build started: Project: variant_test, Configuration: Debug x64 ------
+148>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/GraphTest.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/GraphTest.exp
+148>GraphTest.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\GraphTest.exe
+152>------ Build started: Project: verify_api_visibility, Configuration: Debug x64 ------
+153>------ Build started: Project: weakref_test, Configuration: Debug x64 ------
+154>------ Build started: Project: workspace_test, Configuration: Debug x64 ------
+155>------ Build started: Project: wrapdim_test, Configuration: Debug x64 ------
+149>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/transform_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/transform_test.exp
+150>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/undefined_tensor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/undefined_tensor_test.exp
+151>variant_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\variant_test.exe
+149>transform_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\transform_test.exe
+150>undefined_tensor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\undefined_tensor_test.exe
+156>------ Build started: Project: xla_tensor_test, Configuration: Debug x64 ------
+153>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/weakref_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/weakref_test.exp
+155>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/wrapdim_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/wrapdim_test.exp
+152>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/verify_api_visibility.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/verify_api_visibility.exp
+153>weakref_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\weakref_test.exe
+154>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/workspace_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/workspace_test.exp
+155>wrapdim_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\wrapdim_test.exe
+152>verify_api_visibility.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\verify_api_visibility.exe
+156>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/xla_tensor_test.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/xla_tensor_test.exp
+154>workspace_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\workspace_test.exe
+156>xla_tensor_test.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\xla_tensor_test.exe
+144>   Creating library C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/test_api.lib and object C:/Users/Andrej/Documents/pytorch/build/build/lib/Debug/test_api.exp
+144>test_api.vcxproj -> C:\Users\Andrej\Documents\pytorch\build\build\bin\Debug\test_api.exe
+157>------ Skipped Build: Project: INSTALL, Configuration: Debug x64 ------
+157>Project not selected to build for this solution configuration 
+========== Build: 151 succeeded, 1 failed, 8 up-to-date, 5 skipped ==========
